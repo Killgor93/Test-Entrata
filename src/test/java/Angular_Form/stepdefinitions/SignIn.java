@@ -58,4 +58,12 @@ public class SignIn {
     @Then("the user clicks on log in button")
     public void theUserClicksOnLogInButton() {signInPage.signinbutton();
     }
+
+    @Then("User clicks on the Watch Demo button")
+    public void userClicksOnTheWatchDemoButton() {signInPage.watchdemobutton();
+    }
+
+    @Then("User Clicks on the watch demo button with out filling all the details")
+    public void userClicksOnTheWatchDemoButtonWithOutFillingAllTheDetails() {signInPage.watchdemo();
+    }
 }

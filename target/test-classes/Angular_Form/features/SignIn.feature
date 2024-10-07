@@ -16,4 +16,11 @@ Feature: SignIn
     Then the user enters password
     Then the user clicks on log in button
 
+  Scenario: User is the Can't watch demo with out filleing all the Details
+    Given user clicks on accept cookies button
+    Then User clicks on the Watch Demo button
+    Then user scroll to bottom of the page
+    Then User Clicks on the watch demo button with out filling all the details
+    Then user gets error massage validate firstname
+
 

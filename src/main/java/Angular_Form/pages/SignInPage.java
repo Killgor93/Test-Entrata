@@ -37,6 +37,11 @@ public class SignInPage  {
     private WebElement USERNAME;
     @FindBy(xpath = "//*[contains(@id,'entrata-password')]")
     private WebElement PASSWORD;
+    @FindBy(xpath = "(//*[contains(text(),'Watch Demo')])[1]")
+    private WebElement Watchdemobutton;
+    @FindBy(xpath = "(//button[normalize-space()='WATCH DEMO'])[1]")
+    private WebElement watchdemo;
+
 
     public SignInPage(WebDriver driver) {
         this.driver = driver;
@@ -85,5 +90,13 @@ public class SignInPage  {
 
     public void password() {
         elementUtils.clearAndSendKeys(PASSWORD,"Admin123");
+    }
+
+    public void watchdemobutton() {
+        elementUtils.clickElement(Watchdemobutton);
+    }
+
+    public void watchdemo() {
+        elementUtils.clickElement(watchdemo);
     }
 }
