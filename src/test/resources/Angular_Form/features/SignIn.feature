@@ -7,7 +7,6 @@ Feature: SignIn
     Then user scroll to bottom of the page
     Then User Clicks on the schedule demo button with out filling all the details
 
-
   Scenario: User Fails to log in as Property Manager due to invalid Credentials
     Given user clicks on accept cookies button
     Given User clicks on sign in button
