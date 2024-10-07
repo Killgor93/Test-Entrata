@@ -32,7 +32,7 @@ public class SignIn {
 
 
     @Then("user scroll to bottom of the page")
-    public void userScrollToBottomOfThePage() {signInPage.scrolltobottom();
+    public void userScrollToBottomOfThePage(){signInPage.scrolltobottom();
     }
 
     @Then("user gets error massage validate firstname")
@@ -44,7 +44,7 @@ public class SignIn {
     }
 
     @Then("Then User Clicks On the Property Manager login")
-    public void thenUserClicksOnThePropertyManagerLogin() throws InterruptedException {signInPage.pmlogin();
+    public void thenUserClicksOnThePropertyManagerLogin(){signInPage.pmlogin();
     }
 
     @Then("the user enters username")

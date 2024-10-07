@@ -31,7 +31,7 @@ public class SignInPage  {
     private WebElement Errorpopup;
     @FindBy(xpath = "//*[contains(text(),'Sign In')]")
     private WebElement signinbutton;
-    @FindBy(xpath = "//*[contains(text(),'Property Manager Login')]")
+    @FindBy(xpath = "//*[@class='button hover_black new-button w-inline-block']")
     private WebElement PropManlogin;
     @FindBy(xpath ="//*[contains(@id,'entrata-username')]" )
     private WebElement USERNAME;
@@ -67,7 +67,8 @@ public class SignInPage  {
 
     public void scrolltobottom() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        js.executeScript("window.scrollTo(10000, document.body.scrollHeight)");
+
 
     }
 
@@ -79,9 +80,10 @@ public class SignInPage  {
         elementUtils.clickElement(signinbutton);
     }
 
-    public void pmlogin() throws InterruptedException {
+    public void pmlogin() {
+
         elementUtils.clickElement(PropManlogin);
-        wait(2000);
+
     }
 
     public void username() {
