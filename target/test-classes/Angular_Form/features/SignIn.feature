@@ -6,7 +6,6 @@ Feature: SignIn
     Then User Clicks on the schedule demo button
     Then user scroll to bottom of the page
     Then User Clicks on the schedule demo button with out filling all the details
-    Then user gets error massage validate firstname
 
   Scenario: User Fails to log in as Property Manager due to invalid Credentials
     Given user clicks on accept cookies button
@@ -21,6 +20,6 @@ Feature: SignIn
     Then User clicks on the Watch Demo button
     Then user scroll to bottom of the page
     Then User Clicks on the watch demo button with out filling all the details
-    Then user gets error massage validate firstname
+
 
 

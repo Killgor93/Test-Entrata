@@ -37,7 +37,7 @@ public class SignInPage  {
     private WebElement USERNAME;
     @FindBy(xpath = "//*[contains(@id,'entrata-password')]")
     private WebElement PASSWORD;
-    @FindBy(xpath = "(//*[contains(text(),'Watch Demo')])[1]")
+    @FindBy(xpath = "//*[@class='white-button mb-full w-inline-block']")
     private WebElement Watchdemobutton;
     @FindBy(xpath = "(//button[normalize-space()='WATCH DEMO'])[1]")
     private WebElement watchdemo;
