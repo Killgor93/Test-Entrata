@@ -85,7 +85,8 @@ This project automates the testing of the Entrata platform (https://www.entrata.
     
         mvn clean install
         
-       **Ensure that the following dependencies are listed in pom.xml**:(**COPY THIS FILE AND PASTE IT IN POM.XML FILE**)
+       **Ensure that the following dependencies are listed in pom.xml**:
+        *(COPY THIS FILE AND PASTE IT IN POM.XML FILE)*
 
 <?xml version="1.0" encoding="UTF-8"?>
 
