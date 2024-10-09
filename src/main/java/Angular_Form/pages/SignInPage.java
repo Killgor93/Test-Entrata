@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import sun.security.util.Password;
 
 
@@ -41,6 +42,11 @@ public class SignInPage  {
     private WebElement Watchdemobutton;
     @FindBy(xpath = "(//button[normalize-space()='WATCH DEMO'])[1]")
     private WebElement watchdemo;
+    @FindBy(xpath = "//*[contains(@id, 'ValidMsgFirstName')]")
+    private WebElement errormsg;
+
+  @FindBy(xpath = "//*[contains(@id, 'statusMessage')]")
+  private WebElement Signerrormgs;
 
 
     public SignInPage(WebDriver driver) {
@@ -52,7 +58,8 @@ public class SignInPage  {
     public void AcceptCookies(){
         elementUtils.clickElement(AcceptCookies);
     }
-    public void scheduledemobutton(){
+    public void scheduledemobutton() throws InterruptedException {
+        Thread.sleep(2000);
         elementUtils.clickElement(scheduledemobutton);
     }
     public void Firstname(){
@@ -60,14 +67,23 @@ public class SignInPage  {
 
 
     }
-    public void SCHEDULEDEMO() {
+    public void SCHEDULEDEMO() throws InterruptedException {
         elementUtils.clickElement(SCHEDULEDEMO);
+        Thread.sleep(5000);
+
     }
 
 
     public void scrolltobottom() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(10000, document.body.scrollHeight)");
+
+
+    }
+    public void scrolltoup() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        Thread.sleep(2000);
 
 
     }
@@ -100,5 +116,18 @@ public class SignInPage  {
 
     public void watchdemo() {
         elementUtils.clickElement(watchdemo);
+    }
+
+
+    public void validateErrorMessage(String errormessage) {
+        String getErrorMessage=elementUtils.getElementText(errormsg);
+       boolean result = errormessage.equals(getErrorMessage);
+       Assert.assertTrue(result);
+    }
+
+    public void validatesigninerrormsg(String errormsg) {
+        String getErrorMassage=elementUtils.getElementText(Signerrormgs);
+        boolean result = errormsg.equals(getErrorMassage);
+        Assert.assertTrue(result);
     }
 }

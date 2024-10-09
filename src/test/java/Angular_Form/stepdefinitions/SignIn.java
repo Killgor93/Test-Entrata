@@ -18,7 +18,7 @@ public class SignIn {
     }
 
     @Given("User Clicks on the schedule demo button")
-    public void userClicksOnTheScheduleDemoButton() {signInPage.scheduledemobutton();
+    public void userClicksOnTheScheduleDemoButton() throws InterruptedException {signInPage.scheduledemobutton();
     }
 
     @Given("User Enters the First Name")
@@ -26,7 +26,7 @@ public class SignIn {
     }
 
     @Given("User Clicks on the schedule demo button with out filling all the details")
-    public void userClicksOnTheScheduleDemoButtonWithOutFillingAllTheDetails() {signInPage.SCHEDULEDEMO();
+    public void userClicksOnTheScheduleDemoButtonWithOutFillingAllTheDetails() throws InterruptedException {signInPage.SCHEDULEDEMO();
 
     }
 
@@ -65,5 +65,17 @@ public class SignIn {
 
     @Then("User Clicks on the watch demo button with out filling all the details")
     public void userClicksOnTheWatchDemoButtonWithOutFillingAllTheDetails() {signInPage.watchdemo();
+    }
+
+    @Then("user scroll to top of the page")
+    public void userScrollToTopOfThePage() throws InterruptedException {signInPage.scrolltoup();
+    }
+
+    @Then("user should able to see {string} message")
+    public void userShouldAbleToSeeMessage(String errormessage) {signInPage.validateErrorMessage(errormessage);
+    }
+
+    @Then("the user gets {string} invalid credentials")
+    public void theUserGetsInvalidCredentials(String errormsg) {signInPage.validatesigninerrormsg(errormsg);
     }
 }

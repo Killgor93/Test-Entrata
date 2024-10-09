@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tap_dap_project</groupId>
-    <artifactId>tap_dap_project</artifactId>
+    <groupId>Entrata_project</groupId>
+    <artifactId>Entrata_project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>Entrata_project</name>
@@ -68,7 +68,11 @@
             <artifactId>klov-reporter</artifactId>
             <version>5.1.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.20.0</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
         <dependency>
@@ -99,7 +103,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.6.1</version>
+            <version>7.4.0</version>
         </dependency>
     </dependencies>
 
@@ -146,7 +150,29 @@
                     <artifactId>maven-project-info-reports-plugin</artifactId>
                     <version>3.0.0</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.11.0</version> <!-- Use the latest version available -->
+                    <configuration>
+                        <source>1.8</source> <!-- Specify the Java version -->
+                        <target>1.8</target> <!-- Ensure the target is the same version -->
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M5</version>
+                    <configuration>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>C:\Users\walkingtree\Test_Entrata\testng.xml</suiteXmlFile> <!-- Path to your TestNG XML file -->
+                        </suiteXmlFiles>
+                    </configuration>
+                </plugin>
+
             </plugins>
+
         </pluginManagement>
+
     </build>
 </project>

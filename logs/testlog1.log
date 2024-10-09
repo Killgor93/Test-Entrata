@@ -6206,3 +6206,357 @@
 2024-10-08 12:21:54,380 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a70136741f75346a949c862e0cc3c75f)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
 2024-10-08 12:21:54,544 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (a70136741f75346a949c862e0cc3c75f)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
 2024-10-08 12:21:55,263 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 20:16:22,400 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 20:16:32,924 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 20:16:42,671 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 20:16:42,920 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49a398eebbe44c2cfdf6eb0dfd7cc49a)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 20:16:43,299 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (49a398eebbe44c2cfdf6eb0dfd7cc49a)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 20:16:43,759 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49a398eebbe44c2cfdf6eb0dfd7cc49a)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 20:16:59,700 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 20:16:59,832 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49a398eebbe44c2cfdf6eb0dfd7cc49a)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 20:17:00,025 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (49a398eebbe44c2cfdf6eb0dfd7cc49a)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 20:17:00,882 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 20:17:00,923 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 20:17:02,030 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 20:17:12,882 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 20:17:13,111 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 20:17:13,366 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 20:17:13,781 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 20:17:15,862 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 20:17:15,959 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 20:17:32,445 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 20:17:32,544 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 20:17:32,874 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 20:17:32,987 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 20:17:33,242 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 20:17:33,337 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bf1cb960ac6fa9aa86ffca397270d350)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 20:54:08,727 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 20:54:12,507 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 20:54:14,553 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:04:35,476 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:04:39,347 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:04:51,652 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:04:51,877 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (c17e8f5d1539dd9fed6794d69b4521bb)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:04:52,099 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (c17e8f5d1539dd9fed6794d69b4521bb)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:04:53,084 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (c17e8f5d1539dd9fed6794d69b4521bb)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:05:13,177 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:05:13,309 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (c17e8f5d1539dd9fed6794d69b4521bb)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:05:15,054 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:05:15,073 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:05:16,101 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:05:16,140 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:05:17,359 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:05:42,318 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:05:45,287 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:06:00,792 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:06:01,009 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (e0326d54d7bfccabd1c6366f07a19de6)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:06:01,159 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (e0326d54d7bfccabd1c6366f07a19de6)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:06:01,265 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (e0326d54d7bfccabd1c6366f07a19de6)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:06:16,631 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:06:19,147 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:06:24,534 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:06:24,954 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cbc8cb6c39a61db16969d42254e26ad4)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:06:25,110 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (cbc8cb6c39a61db16969d42254e26ad4)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:06:25,415 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cbc8cb6c39a61db16969d42254e26ad4)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:06:39,000 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:25:42,546 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:25:45,871 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:25:52,768 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:25:53,389 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49725fbbd2ac64da89807b5c14cc6fb2)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:25:53,649 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (49725fbbd2ac64da89807b5c14cc6fb2)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:25:53,828 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49725fbbd2ac64da89807b5c14cc6fb2)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:26:06,808 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:26:06,919 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (49725fbbd2ac64da89807b5c14cc6fb2)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:26:07,092 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (49725fbbd2ac64da89807b5c14cc6fb2)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:26:08,038 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:26:08,063 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:26:10,326 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:26:12,751 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:31:07,784 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:31:10,434 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:31:26,039 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:31:26,181 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9de93b4d49076dd6d07f4576d6243383)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:31:26,321 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (9de93b4d49076dd6d07f4576d6243383)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:31:26,395 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9de93b4d49076dd6d07f4576d6243383)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:31:39,331 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:31:39,430 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9de93b4d49076dd6d07f4576d6243383)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:31:39,826 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (9de93b4d49076dd6d07f4576d6243383)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:31:40,631 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:31:40,660 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:31:41,844 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:31:57,320 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:31:57,451 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:31:57,657 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:31:57,771 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:32:01,308 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:32:01,418 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 22:32:13,538 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 22:32:13,621 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 22:32:13,912 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 22:32:13,998 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 22:32:14,234 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 22:32:14,313 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:32:15,635 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (a2786254e49c314f5396fc9efc847372)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:32:15,811 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:32:15,822 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:32:16,953 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:32:21,863 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:32:22,276 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9d33cc01a85e1e4bd34ce0d2508c04a6)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:32:22,709 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (9d33cc01a85e1e4bd34ce0d2508c04a6)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:32:23,190 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9d33cc01a85e1e4bd34ce0d2508c04a6)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 22:32:36,367 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
+2024-10-09 22:32:36,454 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (9d33cc01a85e1e4bd34ce0d2508c04a6)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
+2024-10-09 22:32:36,606 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (9d33cc01a85e1e4bd34ce0d2508c04a6)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
+2024-10-09 22:32:37,890 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:43:36,097 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:43:39,077 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:43:54,683 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:43:54,934 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bb34323bd414a2a5eaf8c3963776f401)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:43:55,157 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bb34323bd414a2a5eaf8c3963776f401)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:43:55,363 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bb34323bd414a2a5eaf8c3963776f401)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:44:17,050 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:44:17,205 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bb34323bd414a2a5eaf8c3963776f401)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:44:17,440 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bb34323bd414a2a5eaf8c3963776f401)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:44:18,536 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:45:39,482 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:45:42,327 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:45:49,410 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:45:49,797 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (4c8611acdb06bedc3d7199444d00799e)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:45:50,487 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (4c8611acdb06bedc3d7199444d00799e)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:45:50,902 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (4c8611acdb06bedc3d7199444d00799e)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:46:03,598 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:46:03,757 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (4c8611acdb06bedc3d7199444d00799e)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:46:03,977 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (4c8611acdb06bedc3d7199444d00799e)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:46:04,896 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:47:34,105 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:47:36,771 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:47:37,452 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:47:52,607 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (3ddb3cb895c42055635ecc05b4005580)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:47:52,901 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:47:52,925 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:47:53,815 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:47:53,873 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:47:55,214 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:48:03,433 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:48:03,651 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:48:04,072 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:48:04,559 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:48:06,350 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:48:06,425 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 22:48:18,657 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 22:48:18,726 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 22:48:18,991 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 22:48:19,057 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 22:48:19,271 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 22:48:19,323 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:48:20,660 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (2c2fbd98c09dd12b4132a9d61d11f8bb)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:48:21,461 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:48:21,473 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:48:22,617 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:48:38,087 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:48:38,336 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (644ab6e3b1a475da493d5e005d70743b)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:48:38,535 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (644ab6e3b1a475da493d5e005d70743b)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:48:38,611 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (644ab6e3b1a475da493d5e005d70743b)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 22:48:54,467 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
+2024-10-09 22:48:54,557 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (644ab6e3b1a475da493d5e005d70743b)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
+2024-10-09 22:48:54,707 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (644ab6e3b1a475da493d5e005d70743b)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
+2024-10-09 22:48:55,554 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:50:08,432 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:50:11,197 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:50:26,717 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:50:27,044 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b9304de4b2fc33c681da1bcc27e3507)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:50:27,233 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (1b9304de4b2fc33c681da1bcc27e3507)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:50:27,426 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b9304de4b2fc33c681da1bcc27e3507)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:50:44,008 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:50:44,150 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b9304de4b2fc33c681da1bcc27e3507)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:50:44,296 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (1b9304de4b2fc33c681da1bcc27e3507)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:50:45,402 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:50:45,434 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:50:47,145 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:50:53,542 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:50:53,699 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:50:53,846 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:50:53,935 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:50:56,096 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:50:56,186 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 22:51:09,901 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 22:51:09,965 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 22:51:10,130 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 22:51:10,187 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 22:51:10,322 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 22:51:10,376 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:51:11,756 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (adbec1874237c827bc3673da19b22738)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:51:12,639 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:51:12,652 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:51:13,835 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:51:24,763 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:51:25,245 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (8eea732d829963da64b9aa3fe17c4a69)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:51:25,482 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (8eea732d829963da64b9aa3fe17c4a69)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:51:25,624 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (8eea732d829963da64b9aa3fe17c4a69)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 22:51:41,199 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:51:41,232 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:51:42,445 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:52:35,900 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:52:38,670 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:52:44,813 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:52:45,033 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (fc04a95c83903f49f764f79d1adc8a30)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:52:45,823 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (fc04a95c83903f49f764f79d1adc8a30)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:52:46,038 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (fc04a95c83903f49f764f79d1adc8a30)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:52:59,173 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 22:52:59,334 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (fc04a95c83903f49f764f79d1adc8a30)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 22:52:59,450 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (fc04a95c83903f49f764f79d1adc8a30)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 22:53:02,795 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:53:02,845 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:53:04,215 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:53:04,908 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:53:20,807 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (7fd6e9e5e75d2ae47977ea0159e36de5)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:53:21,103 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:53:21,120 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:53:21,843 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:53:21,880 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:53:23,139 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:53:38,730 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:53:39,127 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (5f5e2c735c0246897b8374da5b5bc7d6)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:53:39,299 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (5f5e2c735c0246897b8374da5b5bc7d6)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:53:39,391 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (5f5e2c735c0246897b8374da5b5bc7d6)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 22:53:56,532 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
+2024-10-09 22:53:56,699 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (5f5e2c735c0246897b8374da5b5bc7d6)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
+2024-10-09 22:53:58,212 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:53:58,225 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:53:59,105 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:54:49,841 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:54:52,412 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:55:01,207 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:55:01,514 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (b14c3fe96ecca71b596d95ffb809f29d)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:55:01,682 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (b14c3fe96ecca71b596d95ffb809f29d)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:55:01,855 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (b14c3fe96ecca71b596d95ffb809f29d)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:56:17,209 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:56:18,692 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:56:27,349 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:56:27,916 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:56:28,824 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:56:29,519 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:56:33,004 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:56:33,159 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 22:56:47,475 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 22:56:47,554 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 22:56:47,835 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 22:56:47,928 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 22:56:48,177 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 22:56:48,246 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:56:49,752 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (bcbf4343fcc408a5fe40250fb7c7de58)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 22:57:02,418 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:57:05,648 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:57:17,570 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:57:17,786 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (57c2fe0b1f79cfff50494ea8154ecb94)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:57:17,986 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (57c2fe0b1f79cfff50494ea8154ecb94)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:57:18,181 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (57c2fe0b1f79cfff50494ea8154ecb94)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 22:57:33,688 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:57:33,722 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:57:34,761 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:57:34,813 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:57:36,054 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:57:51,543 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:57:51,688 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (8064b2463a5118a38c71545067024e7b)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:57:51,902 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (8064b2463a5118a38c71545067024e7b)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:57:52,018 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (8064b2463a5118a38c71545067024e7b)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 22:58:07,674 [main] INFO Angular_Form.utils.CommonUtils - takeScreenShot() invoked , screenshot taken
+2024-10-09 22:58:07,685 [main] INFO Angular_Form.hook.MyHooks - scenario failed
+2024-10-09 22:58:08,518 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 22:58:08,535 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 22:58:10,316 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 22:58:25,791 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 22:58:26,661 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (c57b39fb48a959be7075d4cf406e3e6d)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 22:58:26,843 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (c57b39fb48a959be7075d4cf406e3e6d)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 22:58:26,990 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (c57b39fb48a959be7075d4cf406e3e6d)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 23:00:32,729 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:00:35,587 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:00:41,815 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:00:42,191 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (15e43119f09cc83216a47febeb459bb4)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:00:42,737 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (15e43119f09cc83216a47febeb459bb4)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:00:45,197 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (15e43119f09cc83216a47febeb459bb4)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 23:01:01,234 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 23:01:01,393 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (15e43119f09cc83216a47febeb459bb4)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 23:01:01,652 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (15e43119f09cc83216a47febeb459bb4)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 23:01:09,750 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:01:09,891 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:20:17,678 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:20:21,341 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:20:32,158 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:20:32,408 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:20:32,594 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:20:35,040 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 23:20:52,034 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 23:20:52,180 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 23:20:52,382 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 23:20:59,550 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (cb154d40ee29f0d10c89134978d6ccca)] -> xpath: //*[contains(@id, 'ValidMsgFirstName')]] element is clickable
+2024-10-09 23:20:59,610 [main] INFO Angular_Form.utils.ElementUtils - getting text from webpage This field is required.
+2024-10-09 23:21:00,545 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:21:00,591 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:21:01,770 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:21:08,817 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:21:08,935 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:21:09,105 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:21:09,171 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 23:21:11,666 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 23:21:11,734 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 23:21:25,657 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 23:21:25,727 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 23:21:25,911 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 23:21:25,973 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 23:21:26,131 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 23:21:26,189 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 23:21:27,557 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (1b1bdea001384a92d57f7f93ff5a8769)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 23:21:28,324 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:21:28,346 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:21:30,072 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:21:45,572 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:21:45,745 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (10d887dadbf61168ee82188b42109a5c)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:21:46,112 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (10d887dadbf61168ee82188b42109a5c)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:21:46,286 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (10d887dadbf61168ee82188b42109a5c)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 23:22:04,627 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
+2024-10-09 23:22:04,795 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (10d887dadbf61168ee82188b42109a5c)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
+2024-10-09 23:22:05,526 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (10d887dadbf61168ee82188b42109a5c)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
+2024-10-09 23:22:06,931 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:36:57,708 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:37:00,396 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:37:15,978 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:37:16,197 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:37:16,401 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:37:18,511 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
+2024-10-09 23:37:32,451 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
+2024-10-09 23:37:32,574 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
+2024-10-09 23:37:32,735 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
+2024-10-09 23:37:39,867 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (d6ed513e7fb245822dedc3bd58b2de90)] -> xpath: //*[contains(@id, 'ValidMsgFirstName')]] element is clickable
+2024-10-09 23:37:39,908 [main] INFO Angular_Form.utils.ElementUtils - getting text from webpage This field is required.
+2024-10-09 23:37:40,357 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:37:40,389 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:37:41,535 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:37:45,861 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:37:46,153 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:37:46,341 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:37:46,503 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 23:37:48,521 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 23:37:48,609 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+2024-10-09 23:38:02,404 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
+2024-10-09 23:38:02,461 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+2024-10-09 23:38:02,686 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'entrata-username')]]
+2024-10-09 23:38:02,745 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+2024-10-09 23:38:02,966 [main] INFO Angular_Form.utils.ElementUtils - clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id,'entrata-password')]]
+2024-10-09 23:38:03,019 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
+2024-10-09 23:38:04,310 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(text(),'Sign In')]]
+2024-10-09 23:38:04,383 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (36bdf0b44ec657de51aa0e2cbf9b061a)] -> xpath: //*[contains(@id, 'statusMessage')]] element is clickable
+2024-10-09 23:38:04,407 [main] INFO Angular_Form.utils.ElementUtils - getting text from webpage The username and password provided are not valid. Please try again.
+2024-10-09 23:38:04,667 [main] INFO Angular_Form.hook.MyHooks - driver  quit
+2024-10-09 23:38:04,675 [main] INFO Angular_Form.utils.ConfigReader - read property file 
+2024-10-09 23:38:05,680 [main] INFO Angular_Form.driverfactory.DriverFactory - chrome driver initialized
+2024-10-09 23:38:06,403 [main] INFO Angular_Form.hook.MyHooks - url loaded in browser https://www.entrata.com/c
+2024-10-09 23:38:09,985 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+2024-10-09 23:38:10,530 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: //*[contains(@id,'cookie-accept')]]
+2024-10-09 23:38:10,774 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+2024-10-09 23:38:27,671 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
+2024-10-09 23:38:27,782 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
+2024-10-09 23:38:28,069 [main] INFO Angular_Form.utils.ElementUtils - clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
+2024-10-09 23:38:30,166 [main] INFO Angular_Form.utils.ElementUtils - [[ChromeDriver: chrome on windows (f6b262e3e5737e65c9ebd73aae0415b0)] -> xpath: //*[contains(@id, 'ValidMsgFirstName')]] element is clickable
+2024-10-09 23:38:30,296 [main] INFO Angular_Form.utils.ElementUtils - getting text from webpage This field is required.
+2024-10-09 23:38:30,623 [main] INFO Angular_Form.hook.MyHooks - driver  quit
