@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">All Test Suite</span>
+              <span class="suite-name border-failed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="Angular_Form.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is the Can&#039;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;)">runScenario("User is the Can't watch demo with out filleing all the Details", "SignIn")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,11 +126,6 @@
                         <a href="#" panel-name="suite-All_Test_Suite" title="Angular_Form.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is the Can&#039;t schedule demo with out filleing all the Details&quot;, &quot;SignIn&quot;)">runScenario("User is the Can't schedule demo with out filleing all the Details", "SignIn")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="Angular_Form.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User is the Can&#039;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;)">runScenario("User is the Can't watch demo with out filleing all the Details", "SignIn")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
                   </li>
                 </ul>
@@ -129,6 +138,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Angular_Form.runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User is the Can&#039;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;)">
+                  </a> <!-- runScenario("User is the Can't watch demo with out filleing all the Details", "SignIn") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User is the Can't watch demo with out filleing all the Details", "SignIn")</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (991, 773)
+  (Session info: chrome=129.0.6668.90)
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2c5d5a7330d28561eb79a68a8add9ce, clickElement {id=f.A88C805A0C1A67E6F98C4D4D1497252C.d.E9DF26EB67F1AC4EA9D38D6CDF76F74D.e.1956}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52399/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c2c5d5a7330d28561eb79a68a8add9ce)] -&gt; xpath: (//button[normalize-space()=&apos;WATCH DEMO&apos;])[1]]
+Session ID: c2c5d5a7330d28561eb79a68a8add9ce
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:34)
+	at Angular_Form.pages.SignInPage.watchdemo(SignInPage.java:118)
+	at Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButtonWithOutFillingAllTheDetails(SignIn.java:67)
+	at ✽.User Clicks on the watch demo button with out filling all the details(file:///C:/Users/walkingtree/Test_Entrata/src/test/resources/Angular_Form/features/SignIn.feature:33)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -151,16 +204,6 @@
                   </a> <!-- runScenario("User is the Can't schedule demo with out filleing all the Details", "SignIn") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User is the Can't schedule demo with out filleing all the Details", "SignIn")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User is the Can&#039;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;)">
-                  </a> <!-- runScenario("User is the Can't watch demo with out filleing all the Details", "SignIn") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User is the Can't watch demo with out filleing all the Details", "SignIn")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -231,15 +274,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Angular_Form.runner.TestRunner')
-data.setCell(0, 3, 37583);
+data.setCell(0, 3, 25810);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'Angular_Form.runner.TestRunner')
-data.setCell(1, 3, 27067);
+data.setCell(1, 3, 25140);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'Angular_Form.runner.TestRunner')
-data.setCell(2, 3, 23927);
+data.setCell(2, 3, 24966);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -272,24 +315,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Angular_Form.runner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@278fe428)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7910f355)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("User is the Can't schedule demo with out filleing all the Details", "SignIn")</span>
-                <span class="method-start">549 ms</span>
+                <span class="method-start">452 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("User Fails to log in as Property Manager due to invalid Credentials", "SignIn")</span>
-                <span class="method-start">38132 ms</span>
+                <span class="method-start">25596 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("User is the Can't watch demo with out filleing all the Details", "SignIn")</span>
-                <span class="method-start">62059 ms</span>
+                <span class="method-start">50563 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">89126 ms</span>
+                <span class="method-start">76380 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

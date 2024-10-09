@@ -6,7 +6,7 @@ Feature: SignIn
     Then User Clicks on the schedule demo button
     Then user scroll to bottom of the page
     Then User Clicks on the schedule demo button with out filling all the details
-#    Then user scroll to top of the page
+    Then user scroll to top of the page
     Then user should able to see "<error>" message
     Examples:
       | error |
