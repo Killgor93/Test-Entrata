@@ -281,17 +281,12 @@ This project automates the testing of the Entrata platform (https://www.entrata.
    
     To run all tests, execute the following command:
    
-    mvn clean test
+        mvn clean test
    
     This command will:
-   
        Clean the previous build.
-   
        Compile and run all tests.
 
-3. Run Tests with TestNG Suite
-   
-       To run tests using the TestNG.xml file:
 
 **Generating Reports**
 
