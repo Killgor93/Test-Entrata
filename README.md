@@ -75,9 +75,9 @@ This project automates the testing of the Entrata platform (https://www.entrata.
     
       Clone the project from GitHub (or other VCS):
       
-      git clone https://github.com/yourusername/yourrepository.git
+      git clone https://github.com/Killgor93/Test-Entrata.git
       
-      cd your repository
+      cd your above repository.
       
 **Set Up Maven Dependencies**
 
