@@ -22,7 +22,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 │   │           └── Pages
 │   │           └── Utils                       # Utility classes for the project
                                       
-# Utility classes for the project
+**Utility classes for the project**
 │   └── test
 │       ├── java
 │       │   ├── Angular_Form
