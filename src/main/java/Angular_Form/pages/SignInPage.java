@@ -69,20 +69,20 @@ public class SignInPage  {
     }
     public void SCHEDULEDEMO() throws InterruptedException {
         elementUtils.clickElement(SCHEDULEDEMO);
-        Thread.sleep(5000);
+
 
     }
 
 
     public void scrolltobottom() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(10000, document.body.scrollHeight)");
+        js.executeScript("window.scrollTo(9000, document.body.scrollHeight)");
 
 
     }
     public void scrolltoup() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        js.executeScript("window.scrollTo(-1000, document.body.scrollHeight)");
         Thread.sleep(2000);
 
 
