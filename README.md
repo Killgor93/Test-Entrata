@@ -88,13 +88,12 @@ This project automates the testing of the Entrata platform (https://www.entrata.
        **Ensure that the following dependencies are listed in pom.xml**:
         *(COPY THIS FILE AND PASTE IT IN POM.XML FILE)*
 
-
+**XML File Contains**
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>Entrata_project</groupId>
     <artifactId>Entrata_project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
