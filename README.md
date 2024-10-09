@@ -1,6 +1,6 @@
 **Selenium BDD Cucumber Framework with TestNG**
 **Overview**
-This project is designed to automate key functionalities on the Entrata website using Selenium for browser automation, Cucumber for Behavior Driven Development (BDD), and TestNG as the testing framework. 
+This project automates the testing of the Entrata platform (https://www.entrata.com/c) using Selenium for browser automation, Cucumber for Behavior Driven Development (BDD), and TestNG for test execution and reporting. The framework is designed to validate the functionality and performance of various user interfaces and processes on the Entrata platform by executing feature scenarios written in Gherkin syntax. Additionally, assertions are used within the test cases to verify that expected outcomes match actual results during test execution. 
 
       The automation covers tasks such as:
          1. User is the Can't schedule demo with out filleing all the Details
