@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 82.019 s <<< FAILURE! - in TestSuite
-Angular_Form.runner.TestRunner.runScenario["User is the Can't watch demo with out filleing all the Details", "SignIn"](3)  Time elapsed: 25.816 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (991, 773)
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.12.0', revision: '249f2a7d1b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c2c5d5a7330d28561eb79a68a8add9ce, clickElement {id=f.A88C805A0C1A67E6F98C4D4D1497252C.d.E9DF26EB67F1AC4EA9D38D6CDF76F74D.e.1956}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52399/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c2c5d5a7330d28561eb79a68a8add9ce)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
-Session ID: c2c5d5a7330d28561eb79a68a8add9ce
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.183 s - in TestSuite
