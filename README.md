@@ -24,14 +24,18 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 **Project Structure**
 
 ├── src
+
 │   ├── main
+
 │   │   └── java
+
 │   │       ├── Angular_Form
+
 │   │           └── Pages
 
 │   │           └── Utils                       # Utility classes for the project
                                       
-**Utility classes for the project**
+
 
 │   └── test
 
