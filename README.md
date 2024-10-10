@@ -27,13 +27,13 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 
 │   ├── main
 
-│   │   └── java
+│   │        └── java
 
-│   │       ├── Angular_Form
+│   │           ├── Angular_Form
 
-│   │           └── Pages
+│   │               └── Pages
 
-│   │           └── Utils                       # Utility classes for the project
+│   │               └── Utils                       # Utility classes for the project
                                       
 
 
