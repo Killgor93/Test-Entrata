@@ -25,7 +25,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 
 ├── src
 
-│   ├── main
+│   ├── **main**
 
 │   │        └── java
 
@@ -37,7 +37,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
                                       
 
 
-│   └── test
+│   └── **test**
 
 │       ├── java
 
@@ -51,7 +51,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 
 │       │       └── stepdefination             # Step definition classes
 
-│       ├── resources
+│       ├── **resources**
 
 │       │   ├── Angular_Form
 
