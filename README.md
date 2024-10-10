@@ -1,5 +1,9 @@
 **Selenium BDD Cucumber Framework with TestNG**
+
+
 **Overview**
+
+
 This project automates the testing of the Entrata platform (https://www.entrata.com/c) using Selenium for browser automation, Cucumber for Behavior Driven Development (BDD), and TestNG for test execution and reporting. The framework is designed to validate the functionality and performance of various user interfaces and processes on the Entrata platform by executing feature scenarios written in Gherkin syntax. Additionally, assertions are used within the test cases to verify that expected outcomes match actual results during test execution. 
 
       The automation covers tasks such as:
@@ -22,7 +26,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 │   │           └── Pages
 │   │           └── Utils                       # Utility classes for the project
                                       
-# Utility classes for the project
+**Utility classes for the project**
 │   └── test
 │       ├── java
 │       │   ├── Angular_Form
@@ -38,40 +42,58 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 └── Testng.xml                                 # Testng XML file 
 
 **Folder/Files Breakdown:**
+
     1. Feature Files (.feature): Located in src/test/resources/features, these files contain test scenarios written in Gherkin.
+    
     2. Step Definitions: Java classes that implement the test steps defined in the feature files.
+    
     3. Test Runner: TestNG runner classes that trigger Cucumber tests.
+    
     4. Utilities: Common utilities for the framework such as WebDriver setup and property file readers.
+    
     5. config.properties: Configuration file to manage environment-specific settings like browser, base URL, etc.
     
 **Prerequisites**
 
     Ensure the following tools are installed:
     1. Java: JDK version 11 or higher.
+    
        Verify installation:
+       
         java -version
     2. Maven: Maven version 3.6 or higher.
+    
        Verify installation:
+       
         mvn -version
-    3. IDE: IntelliJ IDEA or Eclipse for coding and running tests.
+        
+    3. IDE: IntelliJ IDEA for coding and running tests.
 
 **Installation and Setup**
+
     Clone the Repository
+    
       Clone the project from GitHub (or other VCS):
-      git clone https://github.com/yourusername/yourrepository.git
-      cd your repository
+      
+         git clone https://github.com/Killgor93/Test-Entrata.git
+      
+         cd your repository.
       
 **Set Up Maven Dependencies**
-    Run the following command to download all necessary dependencies and compile the project:
-        mvn clean install
-       ** Ensure that the following dependencies are listed in pom.xml**:(**COPY THIS FILE AND PASTE IT IN POM.XML FILE**)
 
+    Run the following command to download all necessary dependencies and compile the project:
+    
+        mvn clean install
+        
+       **Ensure that the following dependencies are listed in pom.xml**:
+        *(COPY THIS FILE AND PASTE IT IN POM.XML FILE)*
+
+**XML File Contains**
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>Entrata_project</groupId>
     <artifactId>Entrata_project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -246,27 +268,36 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 </project>
 
 **Configuration File (config.properties)**
+
     Ensure the config.properties file in src/test/resources is set up correctly:
 
       browser=chrome                          # Defines the browser to use (e.g., chrome, firefox).
+      
       baseUrl=https://www.entrata.com/c       # baseUrl: The base URL of Entrata.
 
 **Running Tests**
+
 1. Run Tests with Maven
+   
     To run all tests, execute the following command:
-    mvn clean test
+   
+        mvn clean test
+   
     This command will:
        Clean the previous build.
        Compile and run all tests.
-2. Run Tests with TestNG Suite
-       To run tests using the TestNG.xml file:
+
 
 **Generating Reports**
+
 After test execution, Cucumber generates reports in various formats (e.g., JSON, HTML). You can find these reports in the target directory. To view them:
 
     1. Navigate to target/cucumber-report.html.
+    
     2. Open the file in a browser.
+    
 **Example Report Plugins**
+
 To generate reports in different formats, use the following configuration in the @CucumberOptions annotation:
 
      plugin = {"pretty", "html:target/CucumberReports/CucumberReport.html"})
