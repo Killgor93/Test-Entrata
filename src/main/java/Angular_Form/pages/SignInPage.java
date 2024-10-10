@@ -30,7 +30,7 @@ public class SignInPage  {
     private WebElement SCHEDULEDEMO;
     @FindBy(xpath = "(//*[contains(text(),'This field is required.')])[1]")
     private WebElement Errorpopup;
-    @FindBy(xpath = "//*[contains(text(),'Sign In')]")
+    @FindBy(xpath = "//*[@class='signin-button mb-full']")
     private WebElement signinbutton;
     @FindBy(xpath = "//*[@class='button hover_black new-button w-inline-block']")
     private WebElement PropManlogin;
@@ -44,6 +44,8 @@ public class SignInPage  {
     private WebElement watchdemo;
     @FindBy(xpath = "//*[contains(@id, 'ValidMsgFirstName')]")
     private WebElement errormsg;
+    @FindBy(xpath = "//*[@class='outline-btn reversed js-submit-form']")
+    private WebElement PMSignbutton;
 
   @FindBy(xpath = "//*[contains(@id, 'statusMessage')]")
   private WebElement Signerrormgs;
@@ -129,5 +131,9 @@ public class SignInPage  {
         String getErrorMassage=elementUtils.getElementText(Signerrormgs);
         boolean result = errormsg.equals(getErrorMassage);
         Assert.assertTrue(result);
+    }
+
+    public void signinbuttonPM() {
+        elementUtils.clickElement(PMSignbutton);
     }
 }

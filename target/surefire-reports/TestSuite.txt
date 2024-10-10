@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.183 s - in TestSuite
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 128.468 s <<< FAILURE! - in TestSuite
+Angular_Form.runner.TestRunner.runScenario["User is the Can't schedule demo with out filleing all the Details", "SignIn"](1)  Time elapsed: 19.178 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Angular_Form.runner.TestRunner.runScenario["User Fails to log in as Property Manager due to invalid Credentials", "SignIn"](2)  Time elapsed: 82.64 s  <<< FAILURE!
+java.lang.NullPointerException
+
+Angular_Form.runner.TestRunner.runScenario["User is the Can't watch demo with out filleing all the Details", "SignIn"](3)  Time elapsed: 22.133 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0fd03ddbf18931e8636c659dfcb1997, clickElement {id=f.9BA352C71034D83DDBDA57F80B56DF95.d.3A76F7C5881A1CB5546F2AF81274BA1B.e.388}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64341/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[@class='white-button mb-full w-inline-block']]
+Session ID: c0fd03ddbf18931e8636c659dfcb1997
+

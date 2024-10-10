@@ -26,7 +26,7 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 │   └── test
 │       ├── java
 │       │   ├── Angular_Form
-│       │       └── Driverfactory             # Webdriver Class
+│       │       └── Driverfactory              # Webdriver Class
 │       │       └── Hooks
 │       │       └── Runner                     # Test Runner classes
 │       │       └── stepdefination             # Step definition classes

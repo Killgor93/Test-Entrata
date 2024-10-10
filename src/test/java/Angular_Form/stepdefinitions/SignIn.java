@@ -56,7 +56,7 @@ public class SignIn {
     }
 
     @Then("the user clicks on log in button")
-    public void theUserClicksOnLogInButton() {signInPage.signinbutton();
+    public void theUserClicksOnLogInButton() {signInPage.signinbuttonPM();
     }
 
     @Then("User clicks on the Watch Demo button")

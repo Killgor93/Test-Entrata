@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="79.183" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="128.468" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\walkingtree\AppData\Local\Temp\surefire6778687686637319143\surefirebooter6009066685483433687.jar C:\Users\walkingtree\AppData\Local\Temp\surefire6778687686637319143 2024-10-10T01-47-04_204-jvmRun1 surefire6674433922235453839tmp surefire_01317657923437039028tmp"/>
+    <property name="sun.java.command" value="C:\Users\walkingtree\AppData\Local\Temp\surefire10477332864728177307\surefirebooter3507762759211878406.jar C:\Users\walkingtree\AppData\Local\Temp\surefire10477332864728177307 2024-10-10T11-14-44_845-jvmRun1 surefire5086949506958981578tmp surefire_01343804224841344396tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\walkingtree\Test_Entrata\target\test-classes;C:\Users\walkingtree\Test_Entrata\target\classes;C:\Users\walkingtree\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\walkingtree\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\walkingtree\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\walkingtree\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\walkingtree\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\walkingtree\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\walkingtree\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\walkingtree\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\walkingtree\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\walkingtree\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\walkingtree\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\walkingtree\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\walkingtree\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\walkingtree\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\walkingtree\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\walkingtree\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\walkingtree\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\walkingtree\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\walkingtree\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.0\selenium-java-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.0\selenium-api-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.0\selenium-chrome-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\walkingtree\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\walkingtree\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\walkingtree\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\walkingtree\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\walkingtree\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\walkingtree\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\walkingtree\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.0\selenium-chromium-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.0\selenium-json-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.0\selenium-manager-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.0\selenium-devtools-v114-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.0\selenium-devtools-v115-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.0\selenium-devtools-v116-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.0\selenium-devtools-v85-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.0\selenium-edge-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.0\selenium-firefox-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.0\selenium-http-4.12.0.jar;C:\Users\walkingtree\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.0\selenium-ie-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.0\selenium-remote-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\walkingtree\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\walkingtree\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\walkingtree\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\walkingtree\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\walkingtree\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\walkingtree\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\walkingtree\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.0\selenium-os-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.0\selenium-safari-driver-4.12.0.jar;C:\Users\walkingtree\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.0\selenium-support-4.12.0.jar;C:\Users\walkingtree\.m2\repository\net\masterthought\maven-cucumber-reporting\5.7.4\maven-cucumber-reporting-5.7.4.jar;C:\Users\walkingtree\.m2\repository\org\apache\maven\maven-plugin-api\3.8.6\maven-plugin-api-3.8.6.jar;C:\Users\walkingtree\.m2\repository\org\apache\maven\maven-model\3.8.6\maven-model-3.8.6.jar;C:\Users\walkingtree\.m2\repository\org\apache\maven\maven-artifact\3.8.6\maven-artifact-3.8.6.jar;C:\Users\walkingtree\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\walkingtree\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\walkingtree\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\walkingtree\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\walkingtree\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.1\plexus-utils-3.3.1.jar;C:\Users\walkingtree\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\walkingtree\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\walkingtree\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\walkingtree\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\walkingtree\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\walkingtree\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\walkingtree\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\walkingtree\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\walkingtree\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\walkingtree\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\walkingtree\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\walkingtree\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\walkingtree\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\walkingtree\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\walkingtree\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\walkingtree\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\walkingtree\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\walkingtree\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\walkingtree\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\walkingtree\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\walkingtree\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\walkingtree\.m2\repository\io\cucumber\cucumber-testng\7.8.1\cucumber-testng-7.8.1.jar;C:\Users\walkingtree\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\walkingtree\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\walkingtree\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\walkingtree\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\walkingtree\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\walkingtree\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\walkingtree\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\walkingtree\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\walkingtree\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\walkingtree\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\walkingtree\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\walkingtree\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\walkingtree\AppData\Local\Temp\surefire6778687686637319143\surefirebooter6009066685483433687.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\walkingtree\AppData\Local\Temp\surefire10477332864728177307\surefirebooter3507762759211878406.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
@@ -61,97 +61,344 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User is the Can&apos;t schedule demo with out filleing all the Details&quot;, &quot;SignIn&quot;](1)" classname="Angular_Form.runner.TestRunner" time="28.023">
+  <testcase name="runScenario[&quot;User is the Can&apos;t schedule demo with out filleing all the Details&quot;, &quot;SignIn&quot;](1)" classname="Angular_Form.runner.TestRunner" time="19.178">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
     <system-out><![CDATA[
 Scenario Outline: User is the Can't schedule demo with out filleing all the Details &amp#27;[90m# src/test/resources/Angular_Form/features/SignIn.feature:13&amp#27;[0m
  INFO [main] (ConfigReader.java:24)- read property file 
  INFO [main] (DriverFactory.java:33)- chrome driver initialized
  INFO [main] (MyHooks.java:38)- url loaded in browser https://www.entrata.com/c
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: //*[contains(@id,'cookie-accept')]]
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser clicks on accept cookies button&amp#27;[0m                                        &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: //*[contains(text(),'Schedule Your Demo')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Schedule Your Demo')]'
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Clicks on the schedule demo button&amp#27;[0m                                      &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheScheduleDemoButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser scroll to bottom of the page&amp#27;[0m                                            &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToBottomOfThePage()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: (//*[contains(text(),'SCHEDULE DEMO')])[1]]
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Clicks on the schedule demo button with out filling all the details&amp#27;[0m     &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheScheduleDemoButtonWithOutFillingAllTheDetails()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser scroll to top of the page&amp#27;[0m                                               &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToTopOfThePage()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (5ddd18c22aee97b54165de26b26708ae)] -> xpath: //*[contains(@id, 'ValidMsgFirstName')]] element is clickable
- INFO [main] (ElementUtils.java:153)- getting text from webpage This field is required.
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should able to see &amp#27;[0m&amp#27;[32m&amp#27;[1m"This field is required."&amp#27;[0m&amp#27;[32m message&amp#27;[0m                    &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userShouldAbleToSeeMessage(java.lang.String)&amp#27;[0m
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (0f3bb8503003fe758cdee7b829d6880e)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser clicks on accept cookies button&amp#27;[0m                                        &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:34)
+	at Angular_Form.pages.SignInPage.AcceptCookies(SignInPage.java:59)
+	at Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton(SignIn.java:17)
+	at âœ½.user clicks on accept cookies button(file:///C:/Users/walkingtree/Test_Entrata/src/test/resources/Angular_Form/features/SignIn.feature:5)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser Clicks on the schedule demo button&amp#27;[0m                                      &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheScheduleDemoButton()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser scroll to bottom of the page&amp#27;[0m                                            &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToBottomOfThePage()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser Clicks on the schedule demo button with out filling all the details&amp#27;[0m     &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheScheduleDemoButtonWithOutFillingAllTheDetails()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser scroll to top of the page&amp#27;[0m                                               &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToTopOfThePage()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should able to see &amp#27;[0m&amp#27;[36m&amp#27;[1m"This field is required."&amp#27;[0m&amp#27;[36m message&amp#27;[0m                    &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userShouldAbleToSeeMessage(java.lang.String)&amp#27;[0m
+ INFO [main] (CommonUtils.java:30)- takeScreenShot() invoked , screenshot taken
+
+    Embedding User_is_the_Can't_schedule_demo_with_out_filleing_all_the_Details [image/png 165307 bytes]
+
+ INFO [main] (MyHooks.java:51)- scenario failed
  INFO [main] (MyHooks.java:55)- driver  quit
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Oct 10, 2024 1:47:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 10, 2024 11:14:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 129
-Oct 10, 2024 1:47:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 10, 2024 11:14:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f3bb8503003fe758cdee7b829d6880e, findElement {using=xpath, value=//*[contains(@id,'cookie-accept')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63847}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63847/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f3bb8503003fe758cdee7b829d6880e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	at Angular_Form.utils.ElementUtils.waitForElement(ElementUtils.java:63)
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:33)
+	at Angular_Form.pages.SignInPage.AcceptCookies(SignInPage.java:59)
+	at Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton(SignIn.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User Fails to log in as Property Manager due to invalid Credentials&quot;, &quot;SignIn&quot;](2)" classname="Angular_Form.runner.TestRunner" time="26.35">
+  <testcase name="runScenario[&quot;User Fails to log in as Property Manager due to invalid Credentials&quot;, &quot;SignIn&quot;](2)" classname="Angular_Form.runner.TestRunner" time="82.64">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+]]></failure>
     <system-out><![CDATA[
 Scenario Outline: User Fails to log in as Property Manager due to invalid Credentials                          &amp#27;[90m# src/test/resources/Angular_Form/features/SignIn.feature:26&amp#27;[0m
  INFO [main] (ConfigReader.java:24)- read property file 
  INFO [main] (DriverFactory.java:33)- chrome driver initialized
  INFO [main] (MyHooks.java:38)- url loaded in browser https://www.entrata.com/c
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'cookie-accept')]]
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+ INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'cookie-accept')]]
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser clicks on accept cookies button&amp#27;[0m                                                                   &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(text(),'Sign In')]]
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[@class='signin-button mb-full']] element is clickable
+ INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='signin-button mb-full']'
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser clicks on sign in button&amp#27;[0m                                                                          &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnSignInButton()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[@class='button hover_black new-button w-inline-block']] element is clickable
  INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='button hover_black new-button w-inline-block']'
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThen User Clicks On the Property Manager login&amp#27;[0m                                                          &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.thenUserClicksOnThePropertyManagerLogin()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
- INFO [main] (ElementUtils.java:46)- clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'entrata-username')]]
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'entrata-username')]] element is clickable
+ INFO [main] (ElementUtils.java:46)- clearAndSendKeys(), invoked and enter text  Akshay in [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'entrata-username')]]
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters username&amp#27;[0m                                                                                &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserEntersUsername()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
- INFO [main] (ElementUtils.java:46)- clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id,'entrata-password')]]
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'entrata-password')]] element is clickable
+ INFO [main] (ElementUtils.java:46)- clearAndSendKeys(), invoked and enter text  Admin123 in [[ChromeDriver: chrome on windows (9eed901773e3b756e2bfa37c16370590)] -> xpath: //*[contains(@id,'entrata-password')]]
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user enters password&amp#27;[0m                                                                                &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserEntersPassword()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(text(),'Sign In')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(text(),'Sign In')]]
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user clicks on log in button&amp#27;[0m                                                                        &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserClicksOnLogInButton()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (daad73c3dac2812524644e09af98a6b1)] -> xpath: //*[contains(@id, 'statusMessage')]] element is clickable
- INFO [main] (ElementUtils.java:153)- getting text from webpage The username and password provided are not valid. Please try again.
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gets &amp#27;[0m&amp#27;[32m&amp#27;[1m"The username and password provided are not valid. Please try again."&amp#27;[0m&amp#27;[32m invalid credentials&amp#27;[0m &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserGetsInvalidCredentials(java.lang.String)&amp#27;[0m
+ INFO [main] (ElementUtils.java:67)- Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='signin-button mb-full']' element is clickable
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe user clicks on log in button&amp#27;[0m                                                                        &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserClicksOnLogInButton()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:34)
+	at Angular_Form.pages.SignInPage.signinbutton(SignInPage.java:96)
+	at Angular_Form.stepdefinitions.SignIn.theUserClicksOnLogInButton(SignIn.java:59)
+	at âœ½.the user clicks on log in button(file:///C:/Users/walkingtree/Test_Entrata/src/test/resources/Angular_Form/features/SignIn.feature:22)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user gets &amp#27;[0m&amp#27;[36m&amp#27;[1m"The username and password provided are not valid. Please try again."&amp#27;[0m&amp#27;[36m invalid credentials&amp#27;[0m &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.theUserGetsInvalidCredentials(java.lang.String)&amp#27;[0m
+ INFO [main] (CommonUtils.java:30)- takeScreenShot() invoked , screenshot taken
+
+    Embedding User_Fails_to_log_in_as_Property_Manager_due_to_invalid_Credentials [image/png 19941 bytes]
+
+ INFO [main] (MyHooks.java:51)- scenario failed
  INFO [main] (MyHooks.java:55)- driver  quit
 ]]></system-out>
-    <system-err><![CDATA[Oct 10, 2024 1:47:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 10, 2024 11:15:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 129
-Oct 10, 2024 1:47:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 10, 2024 11:15:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='signin-button mb-full']' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at Angular_Form.utils.ElementUtils.waitForElement(ElementUtils.java:63)
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:33)
+	at Angular_Form.pages.SignInPage.signinbutton(SignInPage.java:96)
+	at Angular_Form.stepdefinitions.SignIn.theUserClicksOnLogInButton(SignIn.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='signin-button mb-full']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9eed901773e3b756e2bfa37c16370590, findElement {using=xpath, value=//*[@class='signin-button mb-full']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63984/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eed901773e3b756e2bfa37c16370590
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 58 more
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User is the Can&apos;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;](3)" classname="Angular_Form.runner.TestRunner" time="21.545">
+  <testcase name="runScenario[&quot;User is the Can&apos;t watch demo with out filleing all the Details&quot;, &quot;SignIn&quot;](3)" classname="Angular_Form.runner.TestRunner" time="22.133">
+    <failure message="timeout: Timed out receiving message from renderer: 15.000&#10;  (Session info: chrome=129.0.6668.90)&#10;Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c0fd03ddbf18931e8636c659dfcb1997, clickElement {id=f.9BA352C71034D83DDBDA57F80B56DF95.d.3A76F7C5881A1CB5546F2AF81274BA1B.e.388}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64341/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -&gt; xpath: //*[@class=&apos;white-button mb-full w-inline-block&apos;]]&#10;Session ID: c0fd03ddbf18931e8636c659dfcb1997" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0fd03ddbf18931e8636c659dfcb1997, clickElement {id=f.9BA352C71034D83DDBDA57F80B56DF95.d.3A76F7C5881A1CB5546F2AF81274BA1B.e.388}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64341/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[@class='white-button mb-full w-inline-block']]
+Session ID: c0fd03ddbf18931e8636c659dfcb1997
+]]></failure>
     <system-out><![CDATA[
 Scenario Outline: User is the Can't watch demo with out filleing all the Details &amp#27;[90m# src/test/resources/Angular_Form/features/SignIn.feature:38&amp#27;[0m
  INFO [main] (ConfigReader.java:24)- read property file 
  INFO [main] (DriverFactory.java:33)- chrome driver initialized
  INFO [main] (MyHooks.java:38)- url loaded in browser https://www.entrata.com/c
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: //*[contains(@id,'cookie-accept')]]
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[contains(@id,'cookie-accept')]] element is clickable
+ INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[contains(@id,'cookie-accept')]]
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser clicks on accept cookies button&amp#27;[0m                                     &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnAcceptCookiesButton()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='white-button mb-full w-inline-block']'
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser clicks on the Watch Demo button&amp#27;[0m                                      &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser scroll to bottom of the page&amp#27;[0m                                         &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToBottomOfThePage()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]] element is clickable
- INFO [main] (ElementUtils.java:35)- clickOnElement(), invoked and clicked on element [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: (//button[normalize-space()='WATCH DEMO'])[1]]
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser Clicks on the watch demo button with out filling all the details&amp#27;[0m     &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButtonWithOutFillingAllTheDetails()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser scroll to top of the page&amp#27;[0m                                            &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToTopOfThePage()&amp#27;[0m
- INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (b759244e4ad1f5cecf83013a137080a2)] -> xpath: //*[contains(@id, 'ValidMsgFirstName')]] element is clickable
- INFO [main] (ElementUtils.java:153)- getting text from webpage This field is required.
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should able to see &amp#27;[0m&amp#27;[32m&amp#27;[1m"This field is required."&amp#27;[0m&amp#27;[32m message&amp#27;[0m                 &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userShouldAbleToSeeMessage(java.lang.String)&amp#27;[0m
+ INFO [main] (ElementUtils.java:67)- [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[@class='white-button mb-full w-inline-block']] element is clickable
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser clicks on the Watch Demo button&amp#27;[0m                                      &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButton()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0fd03ddbf18931e8636c659dfcb1997, clickElement {id=f.9BA352C71034D83DDBDA57F80B56DF95.d.3A76F7C5881A1CB5546F2AF81274BA1B.e.388}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: C:\Users\WALKIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64341/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0fd03ddbf18931e8636c659dfcb1997)] -> xpath: //*[@class='white-button mb-full w-inline-block']]
+Session ID: c0fd03ddbf18931e8636c659dfcb1997
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at Angular_Form.utils.ElementUtils.clickElement(ElementUtils.java:34)
+	at Angular_Form.pages.SignInPage.watchdemobutton(SignInPage.java:114)
+	at Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButton(SignIn.java:63)
+	at âœ½.User clicks on the Watch Demo button(file:///C:/Users/walkingtree/Test_Entrata/src/test/resources/Angular_Form/features/SignIn.feature:31)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser scroll to bottom of the page&amp#27;[0m                                         &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToBottomOfThePage()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser Clicks on the watch demo button with out filling all the details&amp#27;[0m     &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userClicksOnTheWatchDemoButtonWithOutFillingAllTheDetails()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser scroll to top of the page&amp#27;[0m                                            &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userScrollToTopOfThePage()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should able to see &amp#27;[0m&amp#27;[36m&amp#27;[1m"This field is required."&amp#27;[0m&amp#27;[36m message&amp#27;[0m                 &amp#27;[90m# Angular_Form.stepdefinitions.SignIn.userShouldAbleToSeeMessage(java.lang.String)&amp#27;[0m
+ INFO [main] (CommonUtils.java:30)- takeScreenShot() invoked , screenshot taken
+
+    Embedding User_is_the_Can't_watch_demo_with_out_filleing_all_the_Details [image/png 177512 bytes]
+
+ INFO [main] (MyHooks.java:51)- scenario failed
  INFO [main] (MyHooks.java:55)- driver  quit
 ]]></system-out>
-    <system-err><![CDATA[Oct 10, 2024 1:48:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Oct 10, 2024 11:16:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 129
-Oct 10, 2024 1:48:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Oct 10, 2024 11:16:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
