@@ -12,9 +12,13 @@ This project automates the testing of the Entrata platform (https://www.entrata.
          3. User is the Can't watch demo with out filleing all the Details
 
 **Key Features:**
+
       Selenium: Automates browser interaction.
+      
       Cucumber: BDD framework to write test cases in Gherkin.
+      
       TestNG: For managing and running test cases.
+      
       Maven: For dependency management and running tests.
 
 **Project Structure**
