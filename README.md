@@ -28,22 +28,35 @@ This project automates the testing of the Entrata platform (https://www.entrata.
 │   │   └── java
 │   │       ├── Angular_Form
 │   │           └── Pages
+
 │   │           └── Utils                       # Utility classes for the project
                                       
 **Utility classes for the project**
 
 │   └── test
+
 │       ├── java
+
 │       │   ├── Angular_Form
+
 │       │       └── Driverfactory              # Webdriver Class
+
 │       │       └── Hooks
+
 │       │       └── Runner                     # Test Runner classes
+
 │       │       └── stepdefination             # Step definition classes
+
 │       ├── resources
+
 │       │   ├── Angular_Form
+
 │       │       └── features                   # Feature files for BDD scenarios        
+
 │       │       └── config.properties          # Configuration properties (browser, URLs, etc.)
+
 └── pom.xml                                    # Maven dependencies and build configurations
+
 └── Testng.xml                                 # Testng XML file 
 
 **Folder/Files Breakdown:**
